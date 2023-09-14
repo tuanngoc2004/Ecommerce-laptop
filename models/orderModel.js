@@ -1,10 +1,10 @@
 import mysql from "mysql2/promise";
 
 const pool = mysql.createPool({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "full_stack"
+  host: "bfimmhbo3psy7wjjgxbz-mysql.services.clever-cloud.com",
+  user: "uwcemdjwioa34npc",
+  password: "iahPqhzTHnHD9UgzsFgM",
+  database: "bfimmhbo3psy7wjjgxbz"
 });
 
 export const createOrderTable = async () => {
